@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background: linear-gradient(to right, #004e92, #000428);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ffd700;
+}
+
+main section {
+  margin-bottom: 80px; /* Aquí aumentamos el espacio entre secciones */
+}
+main h2 {
+  font-size: 1.8rem;
+  color: #004e92;
+  margin-bottom: 15px;
+  border-left: 5px solid #004e92;
+  padding-left: 10px;
+}
+main p, main li {
+  font-size: 1.05rem;
+}
+
+.metodos ul {
+  list-style: disc inside;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.autores article {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.autores article:hover {
+  transform: translateY(-5px);
+}
+.autores h3 {
+  color: #003b6f;
+  margin-bottom: 8px;
+}
+
+.videos ul {
+  list-style: none;
+  padding-left: 0;
+}
+.videos li {
+  margin-bottom: 10px;
+}
+.videos a {
+  color: #004e92;
+  text-decoration: none;
+  font-weight: bold;
+}
+.videos a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+footer {
+  background: #004e92;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 0.95rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
